@@ -3,6 +3,8 @@ Welcome to my Linux learning journal! 🚀 This repository serves as a centraliz
 
 The goal of this project is to transition from manual system administration to building efficient, production-ready automation workflows.
 
+
+
 📂 Repository Layout
 Bash
 .
@@ -14,6 +16,8 @@ Bash
     ├── Utilities/          # Quick tools (e.g., system health checks, file organizers)
     ├── Maintenance/        # Automation for system updates and clearing caches
     └── Security/           # Hardening scripts, firewall tweaks, and audit checks
+
+    
 🛠️ What I'm Tracking & Building
 1. Linux Core Concepts
 System Administration: User management, process monitoring, and file system navigation.
@@ -21,6 +25,9 @@ System Administration: User management, process monitoring, and file system navi
 Networking & Security: Configuring firewalls (ufw/iptables), managing SSH keys, and analyzing ports.
 
 Storage Management: Understanding mount points, disk partitioning, and logical volumes.
+
+
+
 
 2. Shell Scripting & Automation
 Every script added to the Scripts/ directory follows these foundational practices:
@@ -31,12 +38,14 @@ Portability: Uses safe shebang paths (#!/usr/bin/env bash) to remain distributio
 
 Clean Design: Standardized logging flags ([INFO], [SUCCESS], [ERROR]) for legible terminal outputs.
 
+
+
 🚀 Getting Started with the Scripts
 If you want to look around or experiment with any of the automation scripts locally:
 
 1. Clone the Repository
 Bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+git clone https://github.com/Sanatan07/shellscripting/tree/main
 cd YOUR_REPOSITORY_NAME
 2. Make a Script Executable
 By default, newly cloned scripts might lack execution permissions. Modify them using:
